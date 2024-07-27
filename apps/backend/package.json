@@ -1,0 +1,37 @@
+{
+  "name": "theworkspace",
+  "version": "1.0.0",
+  "description": "A workspace to manage sails",
+  "main": "script.ts",
+  "repository": "https://github.com/kumarrohitdev/theworkspace.git",
+  "author": "Rohit Kumar",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/script.js",
+    "dev": "tsc && nodemon dist/script.js",
+    "lint": "eslint . --ext .ts",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@types/nodemon": "^1.19.6",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.1.4"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/jest": "^29.0.0",
+    "@types/jsonwebtoken": "^9.0.6",
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0",
+    "ts-jest": "^29.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0"
+  }
+}
